@@ -56,7 +56,7 @@ $ docker rmi myapp:1
 | docker start <container_name> | It restart the stopped container. |
 | docker rm <container_name> | It removes the container. |
 | docker logs <container_name> | Fetch the logs of the container |
-| docker volume create <volume-name> | Create your Volume for Persistent Data |
+| docker volume create <volume_name> | Create your Volume for Persistent Data |
 | docker volume ls | List down the volume(s) |
 | docker volume inspect <created_volume_name> | Inspect the volume(s) |
 | docker volume rm <created_volume_name>  | Removes volume |
